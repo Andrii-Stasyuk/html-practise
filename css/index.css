@@ -1,0 +1,50 @@
+body {
+    max-width: 960px;
+    margin: auto;
+}
+h1 {
+   color: red;
+   margin: 0;
+}
+.logo{
+    color: red;
+    font-family: 'Libre Baskerville', sans-serif;
+    text-align: center;
+    font-size: 3.5em;
+}
+:root{
+    scroll-behavior: smooth;
+}
+#products{
+    text-transform: uppercase;
+}
+header .banner{
+    background-image: url("../img/baby-yoda.svg");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+header .menu a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid transparent;
+}
+header .menu a:hover{
+    border-color: black;
+}
+header .menu a:before{
+    content: "<";
+}
+header .menu a:after{
+    content: ">";
+}
